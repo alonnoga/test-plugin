@@ -45,7 +45,7 @@ deploy:
     terraformPlan:
       after:
         - name: My Step Name # The name that will be presented in the UI for this step
-		  use: <repo-url>
+		  use: https://github.com/env0/opa-plugin # Also supports tags. For example: https://github.com/env0/opa-plugin@1.0.0
 		  input:
 		  path: bundle-file-path
 		  flags: --fail --format=raw
