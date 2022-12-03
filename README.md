@@ -1,9 +1,9 @@
 
-# Env0 OPA Plugin
+# env0 OPA Plugin
 
   
 
-This Env0 OPA Plugin will allow you to run `opa eval` on a bundle directory as a part of your custom flow. To use this plugin, you will need to use version 2 of `env0.yml`.
+This env0 OPA Plugin will allow you to run `opa eval` on a bundle directory as a part of your custom flow. To use this plugin, you will need to use version 2 of `env0.yml`.
 
   
 
@@ -26,9 +26,9 @@ The OPA plugin accepts the following inputs:
 
 If you are used to using `--input` or `--data` you can bundle those into a bundle directory and use it (read more about it [here]('https://www.openpolicyagent.org/docs/latest/management-bundles/#bundle-build')).
 
-## Env0 System Variables
+## env0 System Variables
 
-You can inject Env0 system variables to you step fields by using `env0.<env-name>`. The available variables are:
+You can inject env0 system variables to you step fields by using `env0.<env-name>`. The available variables are:
 * tfplanjson - the result of plan step in JSON format
   
 
