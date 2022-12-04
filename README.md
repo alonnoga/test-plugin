@@ -24,7 +24,7 @@ The OPA plugin accepts the following inputs:
 * flags - a string containing additional flags as one string
 
 
-If you are used to using `--input` or `--data` you can bundle those into a bundle directory and use it (read more about it [here]('https://www.openpolicyagent.org/docs/latest/management-bundles/#bundle-build')).
+If you are used to using `--input` or `--data` you can bundle those into a bundle directory and use it. Read more about it [here](https://www.openpolicyagent.org/docs/latest/management-bundles/#bundle-build).
 
 ## env0 System Variables
 
