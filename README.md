@@ -26,11 +26,6 @@ The OPA plugin accepts the following inputs:
 
 If you are used to using `--input` or `--data` you can bundle those into a bundle directory and use it. Read more about it [here](https://www.openpolicyagent.org/docs/latest/management-bundles/#bundle-build).
 
-## env0 System Variables
-
-You can inject env0 system variables to you step fields by using `env0.<env-name>`. The available variables are:
-* tfplanjson - the result of plan step in JSON format
-  
 
 ## Example Usage
 
