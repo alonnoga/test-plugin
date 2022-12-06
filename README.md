@@ -38,18 +38,18 @@ You can inject env0 system variables to you step fields by using `env0.<env-name
 
 In this example we will run `opa eval` with our own bundle file after the "Terraform Plan" step of a deploy. We will call that step "My Step Name":
 
-```
+```yaml
 version: 2
 deploy:
   steps:
     terraformPlan:
       after:
         - name: My Step Name # The name that will be presented in the UI for this step
-		  use: https://github.com/env0/opa-plugin # Also supports tags. For example: https://github.com/env0/opa-plugin@1.0.0
-		  input:
-		  path: bundle-file-path
-		  flags: --fail --format=raw
-		  query: data.example.violation[x]
+          use: https://github.com/env0/opa-plugin # Also supports tags. For example: https://github.com/env0/opa-plugin@1.0.0
+          input:
+            path: bundle-file-path
+            flags: --fail --format=raw
+            query: data.example.violation[x]
 
 ```
 
