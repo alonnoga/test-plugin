@@ -5,9 +5,9 @@ inputs:
     description: Path to bundle dir or file
     required: true
   flags:
-    description: Additional opa eval flags
+    description: Additional OPA eval flags
   query:
-    description: Thq query or exception to run with opa eval
+    description: Thq query or exception to run with OPA eval
     required: true
 
 run:
