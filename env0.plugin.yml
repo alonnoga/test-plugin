@@ -2,16 +2,15 @@ name: OPA
 icon: https://cncf-branding.netlify.app/img/projects/opa/stacked/color/opa-stacked-color.png
 inputs:
   path:
-    type: string
+    description: Path to bundle dir or file
     required: true
   flags:
-    type: string
+    description: Additional opa eval flags
   query:
-    type: string
+    description: Thq query or exception to run with opa eval
     required: true
 
 run:
-  runtime: bash
   exec: |
     curl -L -o opa https://openpolicyagent.org/downloads/v0.46.1/opa_linux_amd64_static
     chmod 755 ./opa
