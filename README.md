@@ -7,7 +7,7 @@ This env0 OPA Plugin will allow you to run `opa eval` on a bundle directory as a
 
   
 
-We are using OPA version `0.46.1`
+Plugin is using OPA version `0.46.1`
 
   
 
