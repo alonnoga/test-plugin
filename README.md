@@ -41,7 +41,7 @@ deploy:
       after:
         - name: My Step Name # The name that will be presented in the UI for this step
           use: https://github.com/env0/env0-opa-plugin
-          input:
+          inputs:
             path: bundle-file-path
             flags: --fail --format=raw
             query: data.example.violation[x]
