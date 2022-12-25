@@ -11,6 +11,8 @@ inputs:
 run:
   exec: |
     echo hello
+    ls -l
+    pwd
     if [ 200 -gt 100 ]
     then
     echo Hey that\'s a large number.
