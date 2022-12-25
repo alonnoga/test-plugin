@@ -3,15 +3,16 @@ icon: https://cncf-branding.netlify.app/img/projects/opa/stacked/color/opa-stack
 inputs:
   path:
     description: Path to bundle dir or file
-    required: true
   flags:
     description: Additional OPA eval flags
   query:
     description: Thq query or exception to run with OPA eval
-    required: true
 
 run:
   exec: |
-    curl -L -o opa https://openpolicyagent.org/downloads/v0.46.1/opa_linux_amd64_static
-    chmod 755 ./opa
-    ./opa eval -b ${inputs.path} ${inputs.flags} "${inputs.query}"
+    echo hello
+    if [ 200 -gt 100 ]
+    then
+    echo Hey that\'s a large number.
+    pwd
+    fi
