@@ -13,6 +13,7 @@ run:
     echo hello
     ls -l
     pwd
+    echo $PLUGIN_PATH
     if [ 200 -gt 100 ]
     then
     echo Hey that\'s a large number.
