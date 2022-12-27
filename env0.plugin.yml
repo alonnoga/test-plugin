@@ -14,4 +14,4 @@ run:
     ls -l
     pwd
     echo $PLUGIN_PATH
-    cat $PLUGIN_PATH
+    ls -l $PLUGIN_PATH
